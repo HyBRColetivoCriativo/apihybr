@@ -67,6 +67,6 @@ app.use("/api", routes)
 //     res.sendFile(path.join('/Users/nectar/GitHub/telesapiens-workspace/apihybr/genialy' + '/genially.html'));
 // });
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log("running server...")
 })
