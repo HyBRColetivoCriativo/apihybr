@@ -48,8 +48,6 @@ const db = mysql.createConnection({
     port: "3306"
 })
 
-
-
 db.connect(() => {
     console.log('server mysql running...')
 });
